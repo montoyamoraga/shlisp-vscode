@@ -1,0 +1,25 @@
+{
+    "name": "shlisp",
+    "displayName": "shlisp",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "shlisp",
+            "aliases": ["Shlisp", "shlisp"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "shlisp",
+            "scopeName": "",
+            "path": "./syntaxes/shlisp.tmLanguage.json"
+        }]
+    }
+}
